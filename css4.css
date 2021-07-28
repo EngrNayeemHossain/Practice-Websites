@@ -1,0 +1,13 @@
+.box{
+    width: 200px;
+    height: 200px;
+    border: 2px solid greenyellow;
+    background-color: greenyellow;
+    transition: width 10s,height 10s,transform 5s;
+}
+.box:hover{
+    width: 400px;
+    height: 400px;
+    background-color: coral;
+    transform: rotate(30deg);
+}
